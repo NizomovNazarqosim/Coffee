@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 0;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-top{
+    position: absolute;
+
+    /* background-color: #F2F2F2; */
+}
+.header-top__img{ 
+    display: inline-block;
+    vertical-align:middle;
+    width: 200px;
+    height: 50px;
+    position: absolute; 
+    margin-left: 80px;
+    margin-top: 45px;
+    width: 236px;
+    height: 26px;
+}
+.header-top__list{
+    margin-top: 58px;
+    margin-left: 900px;
+    display: inline-block;
+    list-style: none;
+}
+.header-top__item{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    text-transform: uppercase;
+    color: #83888F;
+    display: inline-block;
+    padding-left: 40px;
+}
+.header-top__link{
+    position: absolute;
+    left: 700px;
+    display: inline-block;
+    text-decoration: none;
+}
+.header-top__item:hover{
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+}
+.header-top__item:active{
+    cursor: grab;
+}
+/* MAIN */
+
+.plan-first__background{
+    margin-left: 80px;
+    margin-top: 130px;
+    position: absolute;
+    background-image: url(/img/plan-first.png);
+    width: 1172px;
+    height:450px;
+    border-radius: 6px;
+}
+.plan-first__heading{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.plan-first__desc{
+    margin-left: 80px;
+    margin-top: 32px;
+    width: 445px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+/* SECOND PAGE */
+.plan-second__background{
+    position: absolute;
+    background-color: #2C343E;
+    width: 1172px;
+    height:580px;
+    margin-top: 700px;
+    margin-left: 80px;
+    border-radius: 6px;
+}
+.plan__circle-first{
+    position: absolute;
+    top: 86px;
+  left: 70px;
+}
+.plan__circle-second{
+top: 86px;
+left: 410px;
+position: absolute;
+}
+.plan__circle-third{
+position: absolute;
+top: 86px;
+left: 765px;
+}
+.plan-circle{
+    width: 31px;
+    height:31px;
+}
+.plan__line{
+    margin-left: 84px;
+    margin-top: 100px;
+    position: relative;
+    width: 700px;
+}
+.nol-num{
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 72px;
+ color: #FDD6BA;
+}
+.nol-heading{
+    margin-top: 35px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+}
+.nol-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+/* umumiy stillar tugadi */
+.plan__one{
+display: flex;
+display: inline-block;
+margin-left: 80px;
+margin-top: 80px;
+width: 300px;
+
+}
+.plan__thero-one{
+position: absolute;
+top: 200px;
+}
+.plan__thero-one-heading{
+  position: absolute;
+  top: 270px;
+  width: 200px;
+}
+.plan__thero-one-desc{
+position: absolute;
+top: 400px;
+width: 260px;
+}
+
+.plan__two{
+    display: flex;
+    width: 300px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.plan__thero-two{
+    position: absolute;
+    top: 200px;
+}
+.plan__thero-two-heading{
+    position: absolute;
+    top: 270px;
+    width: 200px;
+}
+.plan__thero-two-desc{
+    position: absolute;
+top: 400px;
+width: 260px;
+}
+
+.plan__three{
+    width: 300px;
+    display: flex;
+    display: inline-block;
+    margin-left: 50px;
+}
+.plan__thero-three{
+    position: absolute;
+    top: 200px;
+}
+.plan__thero-three-heading{
+    position: absolute;
+    top: 270px;
+    width: 200px;
+}
+.plan__thero-three-desc{
+    position: absolute;
+top: 400px;
+width: 260px;
+}

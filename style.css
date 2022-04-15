@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ .about-full{
+    background-color: #F2F2F2;
+    height:3000px;
+    
+} 
+.container{
+    margin: auto;
+}
+ /* 
+     Footer
+            */
+
+.footer-logo{
+    position: absolute;
+    width: 236px;
+    height: 26px;
+    margin-top: 44px;
+    margin-left: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-list{
+right: 80px;
+top: 60px;
+position: absolute;
+display: inline-block;
+list-style: none;
+}
+.footer-item{
+    display: inline-block;
+}
+.footer-item + .footer-item{
+    padding-left: 33px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #83888F;
+    text-transform: uppercase;
+    letter-spacing: 0.92;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.footer-link:hover{
+    color: #000;
+    cursor: pointer;
+}
+.footer-link:active{
+    cursor: grab;
+}
+/* 
+   Main
+         */
+.about-first-page{
+    background-image: url(/img/Bitmap\ \(1\).jpg);
+    width: 1210px;
+    height:450px;
+    margin-left: 80px;
+    top: 115px;
+    position: absolute;
+    border-radius: 10px;
+}
+.about-first-page-heading{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-top: 137px;
+    margin-left: 85px;
+}
+.about-first-page-par{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-top: 24px;
+    margin-left: 85px;
+    width: 445px;
+    height: 104px;
+}
+.second-page-picture{
+    position: absolute;
+    top: 700px;
+    margin-left: 175px;
+    width: 435px;
+    height: 500px;
+    border-radius: 10px;
+}
+.second-page-right-heading{
+    position: absolute;
+    top: 800px;
+    left: 620px;
+    margin-left: 125px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.second-page-right-par{
+    position: absolute;
+    width: 540px;
+    height: 260px;
+    top: 870px;
+    left: 620px;
+    margin-left: 125px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.about-third-page{
+    background-color: #2C343E;
+    width: 1210px;
+    height: 450px;
+    position: absolute;
+    top: 1420px;
+    left: 80px;
+    border-radius: 10px;
+}
+.about-third-page-heading{
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-left: 100px;
+   margin-top: 60px;
+}
+.about-third-page-paragraph{
+   margin-left: 100px;
+   margin-top: 40px;
+   width: 540px;
+   height: 130px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   opacity: 0.8;
+}
+.about-third-page-right-img{
+    height: 460px;
+    width: 420px;
+    position: absolute;
+    left: 700px;
+    border-radius: 10px;
+    top: -80px;
+}
+.headquarter{
+    color: #83888F;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    position: absolute;
+    margin-top: 2050px;
+    left: 180px;
+}
+ul{
+    list-style: none;
+}
+
+.uk-div{
+    position: absolute;
+    top: 2200px;
+    left:180px;
+    width: 400px;
+}
+.uk-div-heading{
+    position: absolute;
+    top: 100px;
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+.uk-div-item{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+    margin-top: 20px;
+    top: 80px;
+    position: relative;
+}
+
+.canada-div{
+    position: absolute;
+    top: 2200px;
+    left:560px;
+    width: 400px;
+}
+.canada-div-heading{
+    position: absolute;
+    top: 100px;
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+.canada-div-item{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+    margin-top: 20px;
+    top: 80px;
+    position: relative;
+}
+
+.aus-div{
+    position: absolute;
+    top: 2200px;
+    left:940px;
+    width: 400px;
+}
+.aus-div-heading{
+    position: absolute;
+    top: 100px;
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+.aus-div-item{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+    margin-top: 20px;
+    top: 80px;
+    position: relative;
+}
+
+
+
+
+/* 
+   footer
+        */
+.about-last-page{
+    width: 1200px;
+    height:120px;
+    position: absolute;
+    background-color:#2C343E ;
+    top: 2700px;
+    margin-left: 80px;
+}
+.about-last-coffee{
+margin-left: 80px;
+margin-top: 42px;
+display: inline-block;
+}
+.about-last-roaster{
+    margin-left: 10px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.about-last-list{
+    margin-left: 60px;
+    display: inline-block;
+}
+.about-last-item{
+    display: inline-block;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    list-style: none;
+}
+.about-last-item + .about-last-item{
+    padding-left: 30px;
+}
+.about-last-link{
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    list-style: none;
+    text-decoration: none;
+}
+.about-last-link:hover{
+    color: #000;
+}
+.about-last-link:active{
+    cursor: grab;
+}
+.about-facebook{
+    cursor: pointer;
+width: 24px;
+height: 24px;
+top: 40px;
+margin-left: 240px;
+}
+.about-twitter{
+    cursor: pointer;
+    margin-top: 40px;
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+
+}
+.about-instagram{
+    cursor: pointer;
+    margin-top: 0px;
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
